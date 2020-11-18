@@ -10,19 +10,19 @@ public class TaskTwoTest {
     public void whenPass16ThanTrue(){
         TaskTwo go = new TaskTwo();
         Boolean function = go.function(16);
-        Assert.assertEquals(true, function);
+        Assert.assertTrue(function);
     }
     @Test
     public void whenPass5ThanFalse(){
         TaskTwo go = new TaskTwo();
         boolean func = go.function(5);
-        Assert.assertEquals(false, func);
+        Assert.assertFalse(func);
     }
     @Test
     public void whenPass1ThanTrue(){
         TaskTwo go = new TaskTwo();
         boolean function = go.function(1);
-        Assert.assertEquals(true, function);
+        Assert.assertTrue(function);
 
     }
 
